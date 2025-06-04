@@ -8,8 +8,6 @@ function App() {
   return (
     <Router>
       <Routes>
-        {/* <Route path="/" element={<AuthUI />} />
-        <Route path="/quotify" element={<Quotify />} /> */}
           <Route path="/" element={<AuthUI />} />
         <Route path="/reset-password" element={<AuthUI />} />
         <Route path="/quotify" element={<Quotify />} />

@@ -100,23 +100,7 @@ const Quotify = ({ userIdProp, onLogout = () => {} }) => {
     }
   };
 
-  // const removeFavorite = async (favoriteId) => {
-  //   try {
-  //     const res = await fetch(`/api/quote/favorite/${favoriteId}`, {
-  //       method: 'DELETE',
-  //       headers: { 'Content-Type': 'application/json' },
-  //       body: JSON.stringify({ userId }),
-  //     });
-      
-  //     if (!res.ok) throw new Error('Failed to remove favorite');
-      
-  //     toast.success('Removed from favorites');
-  //     setFavorites(favorites.filter(fav => fav._id !== favoriteId));
-  //   } catch (err) {
-  //     console.error('Remove favorite error:', err);
-  //     toast.error('Failed to remove favorite');
-  //   }
-  // };
+
 const removeFavorite = async (favoriteId) => {
   try {
     const res = await fetch(`${BASE_URL}/api/quote/favorite/${favoriteId}?userId=${userId}`, {
@@ -135,27 +119,7 @@ const removeFavorite = async (favoriteId) => {
   }
 };
 
-  // const handleDeleteAccount = async () => {
-  //   const confirmed = window.confirm("Are you sure you want to delete your account?");
-  //   if (!confirmed) return;
-
-  //   try {
-  //     const res = await fetch('/api/user/deleteuser', {
-  //       method: 'DELETE',
-  //       headers: { 'Content-Type': 'application/json' },
-  //       body: JSON.stringify({ userId }),
-  //     });
-
-  //     if (!res.ok) throw new Error('Failed to delete account');
-
-  //     toast.success('Account deleted successfully');
-  //     localStorage.removeItem('userId');
-  //     navigate('/'); // Redirect to login page
-  //   } catch (err) {
-  //     console.error('Delete account error:', err);
-  //     toast.error('Failed to delete account');
-  //   }
-  // };
+  
 const handleDeleteAccount = () => {
   confirmAlert({
     title: 'Confirm Deletion',
