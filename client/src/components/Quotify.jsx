@@ -190,7 +190,10 @@ const Quotify = ({ userIdProp, onLogout = () => {} }) => {
         }),
       });
 
-      if (!res.ok) throw new Error("Failed to generate quotes");
+      if (!res.ok)
+        throw new Error(
+          "Failed to generate quotes..All details are required..!"
+        );
       const data = await res.json();
 
       // Process the quotes array to handle different formats
