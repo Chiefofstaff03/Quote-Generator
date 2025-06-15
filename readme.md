@@ -37,7 +37,7 @@ An AI-powered web app to generate unique, inspiring quotes dynamically based on 
 
 ## 🚀 Live Demo
 
-> **[🌐 Live App Link](https://ai-powered-quote-generator-six.vercel.app/)**  
+> **[🌐 Live App Link]([https://ai-powered-quote-generator-six.vercel.app/](https://quote-generator-three-coral.vercel.app/))**  
 
 
 ---
