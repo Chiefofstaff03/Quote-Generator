@@ -37,7 +37,7 @@ An AI-powered web app to generate unique, inspiring quotes dynamically based on 
 
 ## 🚀 Live Demo
 
-> **[🌐 Live App Link]([https://ai-powered-quote-generator-six.vercel.app/](https://quote-generator-three-coral.vercel.app/))**  
+> **[🌐 Live App Link]((https://quote-generator-three-coral.vercel.app/))**  
 
 
 ---
@@ -88,8 +88,9 @@ npm start
 ## 🖼️ Screenshots
 
 | AI Generated Quote  | Category Selector   | Image generation    |
-| ------------------- | ------------------- | ------------------- |
-| *(screenshot here)* | *(screenshot here)* | *(screenshot here)* |
+![image](https://github.com/user-attachments/assets/c2fc51d5-9c95-4411-9dfa-24d4d266a344)
+
+
 
 ---
 
