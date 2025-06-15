@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
-const connectDB = require('./config/db'); 
+const connectDB = require('./config/db'); // db.js ko sahi jagah shift karke import
 const helmet = require('helmet');
 const compression = require('compression');
 
