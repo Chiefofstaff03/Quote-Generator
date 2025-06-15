@@ -16,8 +16,8 @@ An AI-powered web app to generate unique, inspiring quotes dynamically based on 
 - 🌟 **User Input Topic** — Generate quotes on custom topics  
 <!-- - 🌟 **Multi-language Support** — Generate quotes in different languages   -->
 <!-- - 🌟 **Dark / Light Mode** — Smooth theme toggle   -->
-- 🌟 **Copy to Clipboard** — One-click copy feature  
-<!-- - 🌟 **Download as Image** — Download beautiful quote images   -->
+- 🌟 **Copy to Clipboard** — One-click copy feature
+-  - 🌟 **Download as Image** — Download beautiful quote images 
 
 ---
 
