@@ -3,6 +3,8 @@
 An AI-powered web app to generate unique, inspiring quotes dynamically based on mood, topic, or language — built with **MERN Stack** and **OpenAI API**.
 
 > ✨ "Let AI inspire you — one quote at a time"
+![image](https://github.com/user-attachments/assets/c6ff08b8-54ff-4260-895d-9a8de475da59)
+
 
 ---
 
